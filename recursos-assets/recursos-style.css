@@ -1,3 +1,4 @@
+
 .header-recursos {
     background-color: #F5E5F0;
     display: flex;
@@ -6,19 +7,12 @@
     margin-bottom: 5rem;
 }
 
-.columna-costum1 {
-    background-color: blanchedalmond;
-}
-.columna-costum2{
-    background-color: rgb(188, 188, 255);
-    height: 10rem;
-
-}
-
-.columna-costum3 {
-    background-color: rgb(255, 223, 223);
-}
-
-.columna-costum4 {
-    background-color: rgb(226, 195, 255);
-}
+@media (min-width: 768px) {
+    .carousel-item .row {
+      display: flex;
+      flex-direction: row;
+    }
+    .carousel-item .col-sm-3 {
+      flex: 1;
+    }
+  }
