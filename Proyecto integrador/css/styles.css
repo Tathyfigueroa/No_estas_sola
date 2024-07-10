@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #700548;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #DDE5B6;
+}
+
+.navbar .logo {
+    margin-right: auto;
+}
+
+.navbar .logo img {
+    height: 50px; 
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.content {
+    padding: 20px;
+    text-align: center; 
+}
+
+.content h1 {
+    margin-bottom: 20px; 
+}
+
+
+.quienes-somos {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.quienes-somos .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.quienes-somos .image img {
+    max-width: 600px; 
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
