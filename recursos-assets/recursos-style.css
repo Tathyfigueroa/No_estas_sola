@@ -8,10 +8,11 @@
 }
 
 .intro-tecnicas {
-  display: block;
-  justify-items: center;
-
+    display: block;
+    align-items: center;
+    margin-top: 20px;
 }
+
 .intro-tecnicas h1 {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
