@@ -2,64 +2,83 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #F5E5F0;
 }
 
 .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #700548;
-    padding: 10px;
+    padding: 1rem;
 }
 
-.navbar a {
-    color: #ffffff;
+.logo a {
+    color: white;
     text-decoration: none;
-    padding: 14px 20px;
-    display: block;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
-.navbar a:hover {
-    background-color: #DDE5B6;
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
 }
 
-.navbar .logo {
-    margin-right: auto;
-}
-
-.navbar .logo img {
-    height: 50px; 
-}
-
-.navbar .menu {
-    display: flex;
+.menu a:hover {
+    text-decoration: underline;
 }
 
 .content {
-    padding: 20px;
-    text-align: center; 
+    padding: 2rem;
+    text-align: center;
 }
 
 .content h1 {
-    margin-bottom: 20px; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem; /* Puedes ajustar el tamaño según tus necesidades */
+    font-weight: 700; /* Esto aplica el estilo en negrita */
+    margin-bottom: 2rem;
 }
 
-
-.quienes-somos {
+.quienes-somos, .nuestra-historia, .nuestros-objetivos {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center; 
-    margin-top: 20px;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.quienes-somos .text {
-    flex: 1;
-    padding-right: 20px;
+.quienes-somos .text, .nuestros-objetivos .text {
+    max-width: 700px;
+    margin: 0 1rem;
+
 }
 
-.quienes-somos .image img {
-    max-width: 600px; 
-    width: 100%;
+.nuestra-historia .text {
+    max-width: 700px;
+    margin: 0 1rem;
+}
+
+.quienes-somos .image img, .nuestra-historia .image img, .nuestros-objetivos .image img {
+    max-width: 600px; /* Ajusta este valor según tus necesidades */
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
+
+.nuestros-objetivos ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nuestros-objetivos li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem; /* Puedes ajustar el tamaño de la fuente según tus necesidades */
+}
+
+
 
