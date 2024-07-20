@@ -14,7 +14,12 @@ background-size: cover;
     font-style: normal;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: blueviolet;
   }
+  
   .Autoras p{
   font-family: "Martel Sans", sans-serif;
   font-optical-sizing: auto;
