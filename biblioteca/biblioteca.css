@@ -44,4 +44,16 @@ background-size: cover;
     justify-content: center; 
     margin-top: 20px;
   }
-
+.box h2 
+{
+  font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
