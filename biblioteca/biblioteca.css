@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playwrite+VN&family=Space+Grotesk:wght@500&display=swap');
+
+.Autoras{
+height: 60vh !important;
+background: url(imagenes/mujeres\ 2.jpg);
+background-size: cover;
+}
+.Autoras h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  }
+  
+  .Autoras p{
+  font-family: "Martel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  }
+  .contenedor h6{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  display: flex;
+  justify-content: center;
+  }
+  .contenedor p{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+  }
+.box h2 
+{
+  font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
