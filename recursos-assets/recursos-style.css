@@ -134,3 +134,14 @@ input[type="radio"]{
 .accordion input[type="radio"]:checked + label::before{
   content: '-';
 }
+
+.secondary-button { 
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 10px;
+  align-items: right;
+  border: none;
+  background: none;
+  color: #AA4586;
+}
