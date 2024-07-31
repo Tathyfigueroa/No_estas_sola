@@ -57,3 +57,10 @@ background-size: cover;
   font-weight: 400px;
   color: rgb(0, 0, 0);
 }
+.box img{
+
+  display: block;
+  width: 70%;
+  margin: auto;
+
+}
