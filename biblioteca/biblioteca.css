@@ -30,6 +30,16 @@ background-size: cover;
   margin-bottom: 40px;
   color: rgb(255, 255, 255);
   }
+  .contenedor{
+    width: 70% ;
+    max-width: 900px;
+    display: flow-root;
+    margin-top: 70px;
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+  }
   .contenedor h6{
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
