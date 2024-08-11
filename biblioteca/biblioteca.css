@@ -7,6 +7,15 @@ height: 60vh !important;
 background: url(imagenes/mujeres\ 2.jpg);
 background-size: cover;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #700548;
+  padding: 1rem;
+}
+
 .Autoras h1 {
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
