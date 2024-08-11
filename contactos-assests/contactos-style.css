@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    background-color: hwb(322 53% 9%);
+    margin-left: 0.2px;
+    margin-top: 0 px;
+    margin-left: 0.2px;
+}
+body{ 
+    background-color:#F5E5F0;
+    margin: 0px;
+    
+}
+
+
+.image{
+
+    width: 650px;
+    margin-right: 160px;
+    margin-left: -20px;
+    margin-bottom: -40px;
+
+}
+
+.image1{ 
+    width: 250px;
+
+}
+.container{
+    width: 70% ;
+    max-width: 900px;
+    display: flow-root;
+    margin-top: 70px;
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+ }
+
+
+ .card{
+    width: 70%;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: fixed;
+    box-shadow: 0px 1px 10px #aa0f52;
+    cursor: default;
+    transition: all 400ms ease;
+    align-items: center;
+
+
+ }
+
+ h3{
+    font-size: 34px;
+    color: #1D201F;
+
+ }
+
+
+ .card:hover{
+    box-shadow: 5px 5px 20px #d1e5b6;
+    transform: translateY(-3%);
+ }
+
+ .card .caja{
+    padding: 20px;
+    text-align: center;
+    background-color: #dde5b6;
+ }
+
+ .image3{
+    width:550px ;
+ }
