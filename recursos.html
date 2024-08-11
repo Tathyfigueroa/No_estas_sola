@@ -21,6 +21,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!---Navbar--->
+  <header class="navbar">
+    <div class="logo">
+        <a href="#">NO ESTÁS SOLA</a>
+    </div>
+    <nav class="menu">
+        <a href="#recursos">Recursos</a>
+        <a href="#biblioteca">Biblioteca</a>
+        <a href="#blog">Blog</a>
+        <a href="#contactos">Contactos</a>
+    </nav>
+    </header>
+
     <section class="header-recursos">
         <h1> 
             aqui va a ir a una animación de javascript 
@@ -46,8 +59,8 @@
           <div class="row align-items-center">
           <img class="col-12 col-sm-3 imgcostumize" src="recursos-multimedia/TecnicasMindfull.png" class="d-block" alt="...">
           <img class="col-12 col-sm-3 imgcostumize" src="recursos-multimedia/TecnicasRelax1.png" class="d-block w-100" alt="...">
-          <img class="col-12 col-sm-3 imgcostumize" src="recursos-multimedia/TecnicasMindfull.png" class="d-block w-100" alt="...">
-          <img class="col-12 col-sm-3 imgcostumize" src="recursos-multimedia/TecnicasMindfull.png" class="d-block w-100" alt="...">
+          <img class="col-12 col-sm-3 imgcostumize" src="recursos-multimedia/mindfullness-3.png" class="d-block w-100" alt="...">
+          <img class="col-12 col-sm-3 imgcostumize" src="recursos-multimedia/mindfullness-4.png" class="d-block w-100" alt="...">
           </div>
         </div>
 
@@ -125,78 +138,167 @@
         alt="Derechos sexuales y reproductivos 2023"></a>
   </div>
 </section>
-<!--- Aqui comienzan los cuestionarios en dos columnas --->
-<section class="cuestionarios">
-  <div class="container">
-    <div class="row">
-      <div class=""> <!---aqui va la clase de las columnas responsive-->
-        <h1>Cuestionarios</h1>
-        <p>Conocete mejor y pon a prueba tus conocimientos con nuestros 
-          cuestionarios divertidos y educativos.</p>
-          <!----Aqui comienza el dropdown-->
-          <ul class="acordion">
-            <li>
-              <input type="radio" name="acordion" id="first" checked>
-              <label for="first">¿Que tanto sabes sobre tus derechos?</label>
-                <div class="content"> 
-                  <p>El primer artículo de la Declaración Universal de Derechos Humanos señala que todo ser humano nace libre y con igualdad de dignidad y derechos. Sin embargo, 
-                    ¿crees que en la práctica las mujeres gozan plenamente de este derecho? Descubrelo con este cuestionario </p>
-                     <a href="https://blog.oxfamintermon.org/cuanto-sabes-sobre-la-situacion-y-derechos-de-las-mujeres-alrededor-del-mundo/#ic-quiz" target="_blank"><button class="secondary-button"> Ir al cuestionario</button></a>
-                </div>
-                
-            </li>
-            <li>
-              <input type="radio" name="acordion" id="second">
-              <label for="second">¿Has experimentado micromachismos? Descubrelo aqui</label>
-                <div class="content"> 
-                  <p>Los micromachismos son pequeños gestos, actitudes, comentarios y prejuicios que se manifiestan en lo cotidiano contribuyendo a la inequidad y colocando a la mujer en una posición inferior al hombre en ámbitos sociales, laborales, jurídicos y familiares.
-                    ¿Alguna vez los has experimentado? Descubrelo haciendo el test </p>
-                     <a href="https://e-mujeres.net/micromachismos/#tab-jvenesyprofesorado" target="_blank"><button class="secondary-button"> Ir al cuestionario</button></a>
-                </div>
-                
-            </li>
-            <li>
-              <input type="radio" name="acordion" id="third">
-              <label for="third">¿Conoces a las mujeres que cambiaron la historia?</label>
-                <div class="content"> 
-                  <p>A lo largo de la historia de la humanidad, las mujeres hemos sido participes de constantes cambios, descubrimientos, guerras y epocas. Hemos sido lideres,
-                    cientificas, activistas y pensadoras. Desafortunadamente, el reconocimiento de la mujer en cualquier puesto de poder suele ser descalificado, borrado e ignorado
-                  por la historia. ¿Conoces a estas mujeres que cambiaron el mundo? ¡Haz el cuestionario! </p>
-                     <a href="https://www.cerebriti.com/juegos-de-historia/conoce-la-historia-para-cambiarla/" target="_blank"><button class="secondary-button"> Ir al cuestionario</button></a>
-                </div>
-            </li>
-            <li>
-              <input type="radio" name="acordion" id="fourth">
-              <label for="fourth">Segundo cuestionario</label>
-                <div class="content"> 
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, aliquam alias maiores fugit neque
-                     laudantium excepturi similique tempore, 
-                     dolorem nobis quia doloremque illum. 
-                     Labore itaque assumenda enim nobis quaerat sunt. </p>
-                     <button class="secondary-button"> Ir al cuestionario</button>
-                </div>
-            </li>
-            <li>
-              <input type="radio" name="acordion" id="fifth">
-              <label for="fifth">Segundo cuestionario</label>
-                <div class="content"> 
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, aliquam alias maiores fugit neque
-                     laudantium excepturi similique tempore, 
-                     dolorem nobis quia doloremque illum. 
-                     Labore itaque assumenda enim nobis quaerat sunt. </p>
-                     <button class="secondary-button"> Ir al cuestionario</button>
-                </div>
-            </li>
-          </ul>
-      <div class="col-12 col-6">
-        Column
+<!--- Aqui comienzan los cuestionarios--->
+<div class="container-accordion">
+  <div class="tittle-cuestionarios">
+    <h1> Cuestionarios </h1>
+    <p>Pon a prueba tus conocimientos y descubrete a ti misma
+       con nuestros cuestionarios divertidos y educativos.</p>
+  </div>
+  <ul class="accordion">
+    <li>
+      <input type="radio" name="accordion" id="first" checked>
+      <label for="first">¿Alguna vez has sufrido micromachismos? ¡Descubrelo!</label>
+      <div class="content">
+        <p>El micromachismo es un término designa a las sutiles e imperceptibles maniobras 
+          y estrategias de ejercicio del poder de dominio masculino en lo cotidiano, 
+          que atentan en diversos grados contra la autonomía femenina. Como por ejemplo, cuando tu jefe 
+          te explica un tema en el que tú eres experta en el trabajo, o como cuando se denigran tus capacidades
+          de opinión en un debate amistoso, familiar o de pareja por el solo hecho de ser mujer. </p>
+          <a href="https://e-mujeres.net/micromachismos/#tab-jvenesyprofesorado" target="_blank">
+          <button class="secondary-button">Ir al cuestionario</button></a>
       </div>
+    </li>
+
+    <li>
+      <input type="radio" name="accordion" id="second">
+      <label for="second">¿Cuánto sabes sobre los derechos de las mujeres alrededor del mundo?</label>
+      <div class="content">
+        <p>El primer artículo de la Declaración Universal de Derechos Humanos señala que todo ser humano nace libre y con igualdad de dignidad y derechos. 
+          Sin embargo, ¿crees que en la práctica las mujeres gozan plenamente de este derecho? </p>
+          <a href="https://blog.oxfamintermon.org/cuanto-sabes-sobre-la-situacion-y-derechos-de-las-mujeres-alrededor-del-mundo/#De_los_1200_millones_de_personas_mas_pobres_del_planeta_que_porcentaje_son_mujeres" target="_blank">
+            <button class="secondary-button">Ir al cuestionario</button></a>
+      </div>
+    </li>
+
+    <li>
+      <input type="radio" name="accordion" id="third">
+      <label for="third">Evalua si en tu relación de pareja hay maltrato psicologico</label>
+      <div class="content">
+        <p>Si crees que puedes estar sufriendo maltrato psicológico o tienes dudas 
+          sobre si tu relación es sana, amorosa y basada en el respeto, haz el Test.</p>
+          <a href="https://www.kekiero.es/hacer-test-de-maltrato-psicologico/" target="_blank">
+            <button class="secondary-button">Ir al cuestionario</button></a>
+      </div>
+    </li>
+
+    <li>
+      <input type="radio" name="accordion" id="fourth">
+      <label for="fourth">¿Te interesa una carrera en STEM? ¡Realiza este test para descubrir mas!</label>
+      <div class="content">
+        <p>¡Ey! ¿Conoces las carreras STEM? Atrévete a responder este sencillo quiz 
+          y checa qué tanto sabes sobre ellas. Animate a reducir la brecha digital que 
+        sufrimos muchas mujeres aldededor del mundo, en especial en Latinoamerica. Sé un agente de cambio.</p>
+        <a href="https://impulsostem.com/historias-stem/quiz/impulso-stem-quizz/" target="_blank">
+          <button class="secondary-button">Ir al cuestionario</button></a>
+      </div>
+    </li>
+  </ul>
+</div>
+<!---Aqui ira el carrousel de juegos --->
+<section class="slider-juegos">
+<div class="tittle-juegos"> 
+  <h1> Juegos </h1>
+      <p>Diviértete con juegos educativos que 
+        te ayudarán a aprender de una manera lúdica.</p>
+</div>
+</section>
+<section class="slider-container">
+  <div class="slider-images">
+
+    <div class="slider-img">
+      <a href="https://astrochat.org/">
+      <img src="recursos-multimedia/spacechat.jpg" alt="primer juego">
+      <h2>Astrochat</h2>
+      <div class="details">
+        <h3>Astrochat</h3>
+        <p>Ayuda a la nueva misión espacial</p>
+      </div></a>
+    </div>
+    
+      <div class="slider-img"> 
+      <a href="https://wordwall.net/es/resource/11395525/dia-de-la-mujer" target="_blank">
+      <img src="recursos-multimedia/memoria.jpg" alt="primer juego">
+      <h2>Memoria</h2>
+      <div class="details">
+        <h3>Memoria</h3>
+        <p>Encuentra a todas las figuras femeninas en este juego de memoria.</p>
+      </div></a>
+    </div>
+
+    <div class="slider-img">
+      <a href="https://educacion-espacial.blogspot.com/2021/03/geniallys-para-el-dia-de-la-mujer.html#6042bcddb75eaa0d49a2de12" target="_blank">
+      <img src="recursos-multimedia/femenino.jpg" alt="primer juego">
+      <h2>Cambiemos a femenino</h2>
+      <div class="details">
+        <h3>Cambiemos a femenino</h3>
+        <p>Veamos estas profesiones en femenino</p>
+      </div></a>
+    </div>
+
+    <div class="slider-img">
+      <a href="https://juegosporlaigualdad.com/juegos/el-juego-de-los-estereotipos/" target="_blank">
+      <img src="recursos-multimedia/estereotipos.jpg" alt="primer juego">
+      <h2>Estereotipos</h2>
+      <div class="details">
+        <h3>Estereotipos</h3>
+        <p>Desafia los estereotipos con este juego</p>
+      </div></a>
+    </div>
+
+      <div class="slider-img">
+      <a href="https://juegosporlaigualdad.com/juegos/busca-las-7-diferencias/" target="_blank">
+      <img src="recursos-multimedia/7-diferencias.jpg" alt="primer juego">
+      <h2>7 diferencias</h2>
+      <div class="details">
+        <h3>7 diferencias</h3>
+        <p>Encuentra las diferencias</p>
+      </div></a>
+    </div>
+
+    <div class="slider-img">
+      <a href="https://juegosporlaigualdad.com/juegos/a-por-las-desigualdades/" target="_blank"><img src="recursos-multimedia/spot-an-idiot.jpg" alt="primer juego">
+      <h2>Spot an idiot</h2>
+      <div class="details">
+        <h3>Spot an idiot</h3>
+        <p>Encuentra al idiota, nada más que decir</p>
+      </div></a>
+    </div>
+
+    <div class="slider-img">
+      <a href="https://equitrivia.educa.aragon.es/registro.php?numtrivia=2">
+      <img src="recursos-multimedia/figuras-invisibles.jpg" alt="primer juego">
+      <h2>Figuras invisibles</h2>
+      <div class="details">
+        <h3>Figuras invisibles</h3>
+        <p>Recordemos esas figuras invisibles femeninas</p>
+      </div></a>
     </div>
   </div>
-  </div>
 </section>
+<!---footer--->
+<footer>
+  <div class="footer-content">
+      <div class="logo">
+          <img src="imagenes/Naming-y-Logotipo-blanco.png" alt="Logo de la comunidad" style="max-width: 150px;">
+      </div>
+      <div class="contact-info">
+          <h3>Contactos</h3>
+          <p>Email: contacto@noestassola.org</p>
+          <p>Teléfono: +123 456 789</p>
+      </div>
+      <div class="location">
+          <h3>AQUI IRA UNA UBICACION</h3>
 
-    
+      </div>
+      <div class="social-media">
+          <h3>Síguenos</h3>
+          <a href="#">Facebook</a><br>
+          <a href="#">Twitter</a><br>
+          <a href="#">Instagram</a>
+      </div>
+  </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
