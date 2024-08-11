@@ -40,14 +40,7 @@ background-size: cover;
     margin-bottom: 20px;
     
   }
-  .caja{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  display: flex;
-  justify-content: center;
-  }
+  
   .contenedor h6{
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
